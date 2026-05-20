@@ -1,0 +1,67 @@
+{
+    "projects":[
+        {
+            "projectName":"stockly management system",
+            "projectImage":"./images/project1.png",
+            "languages":["html","css","javascript"],
+            "description":"A web-based application for managing inventory, allowing users to add, update, and monitor stock easily and efficiently.",
+            "websiteLink":"https://stockly-management.netlify.app"
+        },
+        {
+            "projectName":"SHOES website",
+            "projectImage":"./images/project2.png",
+            "languages":["html","css","javascript"],
+            "description":"A modern sneakers e-commerce website showcasing products with a clean UI, smooth navigation, and a unique design enhancing the user experience.",
+            "websiteLink":"https://stridex-sneakers.netlify.app"
+        },
+        {
+            "projectName":"Gaming website",
+            "projectImage":"./images/project3.png",
+            "languages":["html","css"],
+            "description":"A modern gaming website showcasing games with an interactive interface, smooth navigation, and a responsive design for an engaging user experience.",
+            "websiteLink":"https://gamesquadhub.netlify.app"
+        },
+        {
+            "projectName":"Jobify Zone",
+            "projectImage":"./images/project4.png",
+            "languages":["html","css"],
+            "description":"A front-end job hunting website focusing on layout design, responsiveness, and a clean user experience.",
+            "websiteLink":"https://jobify-zone.netlify.app"
+        },
+        {
+            "projectName":"Fit zone",
+            "projectImage":"./images/project5.png",
+            "languages":["html","css"],
+            "description":"A front-end fitness website focused on layout design and responsiveness, presenting fitness programs and health-related content in a clean and accessible interface.",
+            "websiteLink":"https://fitzone-core.netlify.app"
+        },
+        {
+            "projectName":"caffinity",
+            "projectImage":"./images/project6.png",
+            "languages":["html","css"],
+            "description":"Caffinity is a modern coffee-themed website designed with a clean and elegant interface, showcasing menu items and creating a smooth, engaging browsing experience.",
+            "websiteLink":"https://cafinity.netlify.app"
+        },
+        {
+            "projectName":"pepsi vibe",
+            "projectImage":"./images/project7.png",
+            "languages":["html","css"],
+            "description":"A modern Pepsi-inspired website designed with a bold and vibrant UI, showcasing the brand identity through a clean and responsive front-end layout.",
+            "websiteLink":"https://pepsi-vibe.netlify.app"
+        }, 
+        {
+            "projectName":"horizon shop",
+            "projectImage":"./images/project8.png",
+            "languages":["html","css","javascript"],
+            "description":"A front-end e-commerce shop built with JavaScript, implementing dynamic UI updates, interactive components, and responsive product presentation.",
+            "websiteLink":"https://horizon-shop.netlify.app"
+        },
+        {
+            "projectName":"growthly app",
+            "projectImage":"./images/project10.png",
+            "languages":["html","css"],
+            "description":"A responsive growth app UI, designed to present goal tracking and progress concepts through a clean and structured interface.",
+            "websiteLink":"https://growthly-app.netlify.app"
+        }
+    ]
+}
