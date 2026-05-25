@@ -136,8 +136,9 @@ function showMenu(){
         menuMobile.classList.toggle('showBtn');
     })
 }
+
 showMenu();
-sendEmailInfo()
+sendEmailInfo();
 renderProjectDetails();
 buttonScroll();
-showTopBtnScroll()
+showTopBtnScroll();

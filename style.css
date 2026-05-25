@@ -145,7 +145,7 @@ header nav div:nth-child(3) a i:hover,header nav div:nth-child(5) a:last-child i
 .about-container div:nth-child(1) p:nth-child(4) span:nth-child(2){
     color: rgb(58, 224, 58);
 }
-.about-container div:nth-child(1) button{
+.about-container div:nth-child(1) button,.about-container div:nth-child(1) .buttons a{
     background: none;
     color: #fff;
     padding: 8px 15px;
@@ -159,7 +159,7 @@ header nav div:nth-child(3) a i:hover,header nav div:nth-child(5) a:last-child i
     transition: all 0.3s ease-in-out;
     margin-top: 15px;
 }
-.about-container div:nth-child(1) button:hover{
+.about-container div:nth-child(1) button:hover,.about-container div:nth-child(1) .buttons a:hover{
     color: #3B82F6;
 }
 .about-container div:nth-child(2){
@@ -524,6 +524,10 @@ header nav div:nth-child(3) a i:hover,header nav div:nth-child(5) a:last-child i
     padding: 20px 15px;
     color: #fff;
 }
+.about-container .buttons{
+    display: flex;
+    gap: 15px;
+}
 .contact-section .contact-container{
     max-width: 1100px;
     margin: 0 auto;
@@ -747,6 +751,10 @@ footer .footer-container > p span::before{
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+}
+.about-container .buttons{
+    max-width: 450px;
+    margin: 0 auto;
 }
 .single-project-container {
     background: #050202;
@@ -1030,10 +1038,13 @@ form div button {
     .school-desc p:nth-child(2){
     line-height: 20px;
 }
+.about-container .buttons{
+    flex-direction: column;
+}
 }
 @media screen and (max-width:460px) {
      .single-project-container {
-    left: 3%;
+        left: 3%;
      }
 }
 @media screen and (max-width:445px) {
