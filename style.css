@@ -824,6 +824,9 @@ footer .footer-container > p span::before{
     .menu-mobile{
         display: flex;
     }
+    .menu-mobile a:last-child{
+        margin-top: 5px;
+    }
 }
 @media screen and (max-width:907px) {
     .project-container:nth-child(7) button {
@@ -1084,6 +1087,9 @@ form div button {
 }
 .project-container:nth-child(9){
     height: 480px;
+}
+.school-desc p:nth-child(1) {
+   line-height: 25px;
 }
 }
 
