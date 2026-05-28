@@ -163,10 +163,12 @@ header nav div:nth-child(3) a i:hover,header nav div:nth-child(5) a:last-child i
     color: #3B82F6;
 }
 .about-container div:nth-child(2){
-    width: 40%;
+    min-width: 40%;
+    height: 550px;
 }
 .about-container div:nth-child(2) img{
     width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 .skills-section{
@@ -744,7 +746,7 @@ footer .footer-container > p span::before{
     }
 }
 @media screen and (max-width:1050px) {
-    .about-container {
+.about-container {
     transform: translateY(50px);
     display: flex;
     flex-direction: column-reverse;
@@ -777,7 +779,8 @@ footer .footer-container > p span::before{
     max-width: 100%;
 }
 .about-container div:nth-child(2) {
-    width: 30%;
+    min-width: 30%;
+    height: 450px;
 }
 .about-container div:nth-child(1) {
     text-align: center;
@@ -849,6 +852,12 @@ footer .footer-container > p span::before{
     .project-container:nth-child(7) button {
         position: relative;
         top: 0px;
+}
+}
+@media screen and (max-width:874px) {
+    .about-container div:nth-child(2) {
+        min-width: 30%;
+        height: 400px;
 }
 }
 @media screen and (max-width:850px) {
@@ -1035,11 +1044,15 @@ form div button {
 }
 }
 @media screen and (max-width:464px) {
-    .school-desc p:nth-child(2){
+.school-desc p:nth-child(2){
     line-height: 20px;
 }
 .about-container .buttons{
     flex-direction: column;
+}
+.about-container div:nth-child(2) {
+    min-width: 30%;
+    height: 350px;
 }
 }
 @media screen and (max-width:460px) {
@@ -1075,7 +1088,7 @@ form div button {
 }
 @media screen and (max-width:400px) {
     .project-container:nth-child(1) {
-    height: 450px;
+        height: 450px;
 }
 .project-container:nth-child(6){
     height: 500px;
@@ -1083,11 +1096,22 @@ form div button {
 .project-container:nth-child(9){
     height: 450px;
 }
+    .about-section {
+    padding: 25px;
+}
+.about-container {
+    transform: translateY(0px);
+    
+}
 }
 @media screen and (max-width:381px) {
     .about-container div:nth-child(2) {
+        height: 160px;
         width: 200px;
+        object-fit: cover;
     }
+
+   
 }
 @media screen and (max-width:375px) {
     .project-container:nth-child(1) {
